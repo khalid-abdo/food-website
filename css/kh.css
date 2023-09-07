@@ -1,0 +1,115 @@
+
+ /* theme name: الاهرام الزراعى */
+/* coder name: eslam */
+/* main font: tahoma */
+/* main font: arial */
+/* main color: #fff */
+/* second color : #ccc */
+/* version : v2 */
+
+
+
+
+/*custem */
+
+
+body
+{
+    
+    font-family: 'Segoe UI light'
+
+}
+
+header
+{
+    background-image: url(../bh/ben1.jpg);
+    height: 100vh; 
+    background-size: cover;
+    
+
+
+}
+.tmt
+{
+
+    background-color: rgba(0, 0, 0, 0.55);
+    height: 100%;
+    
+}
+.nopadding{
+    padding-left: 0;
+    padding-right: 0;
+}
+.navbar-dark .navbar-nav .nav-link
+{
+    color: #ffff;
+}
+.tmt h2
+{
+    position: relative;
+    transform-origin:top right ;
+    transform: rotate(-90deg);
+}
+.tmt h2::after
+{
+    content: "";
+    width: 2.5rem;
+    height: 3px;
+    background-color: white;
+    position: absolute;
+    top: 48%;
+    right: 102%;
+}
+.tnt
+{
+    position: relative;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+
+}
+.tnt h3
+{
+    font-size: 5rem;
+    color: #f1f1f1;
+    font-weight: 900;
+}
+.tnt h4
+{
+    font-size: 2.5rem;
+    font-weight: 900;
+    position: absolute;
+
+}
+.zoo i
+{
+    color: #f5ba4b !important;
+    font-size: 1.2rem;
+    margin: 20px 0px;
+}
+.klam
+{
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+
+}
+.klam h5
+{
+    font-size: 5rem;
+    font-weight: 900;
+    color: #f1f1f1
+}
+.klam h6
+{
+    font-size: 2.5rem;
+    font-weight: 900;
+}
+.moh 
+{
+    color:#f5ba4b !important;
+}
+.card-logo
+{
+    position: absolute;
+    bottom: 90%;
+    right: 20px;
+    box-shadow: 0 3px 20px rgb(0 0 0 / 15%);
+}
+
